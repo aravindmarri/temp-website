@@ -1,0 +1,24 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: linear-gradient(179deg, #8c50ff4f, #fff);
+
+    img {
+        max-width: 25vw;
+    }
+
+    p {
+        font-size: 4vw;
+        padding: 30px;
+        margin: 0;
+    }
+
+    span {
+        font-size: 2vw;
+        padding: 20px 0;
+    }
+}
