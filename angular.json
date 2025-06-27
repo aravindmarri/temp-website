@@ -20,9 +20,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": {
-              "base": "dist/temp-website"
-            },
+            "outputPath": "dist/temp-website",
             "index": "src/index.html",
             "polyfills": [
               "src/polyfills.ts"
