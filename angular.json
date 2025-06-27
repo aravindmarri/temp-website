@@ -59,7 +59,8 @@
                   "with": "src/environments/environment.prod.ts"
                 }
               ],
-              "outputHashing": "all"
+              "outputHashing": "all",
+              "baseHref": "/temp-website/"
             },
             "development": {
               "optimization": false,
@@ -74,7 +75,8 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "temp-website:build:production"
+              "buildTarget": "temp-website:build:production",
+              "baseHref": "/temp-website/"
             },
             "development": {
               "buildTarget": "temp-website:build:development"
